@@ -13,7 +13,7 @@ header {
     text-align: center;
 }
 header img {
-    height: 70px;
+    height: 100px;
 
 }
 nav {
@@ -22,7 +22,7 @@ nav {
 }
 
 .lista {
-    background-color: lightgrey;
+    background-color:whitesmoke;
     border-radius: 10px;
     padding: 20px;
 
@@ -30,7 +30,7 @@ nav {
 .lista > ul > li {
     width: 100%;
     line-height: 30px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     position: relative;   
     list-style: none;
     cursor: pointer;
@@ -49,4 +49,9 @@ nav {
 
 .lista > ul > li > i:hover {
     color: red;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
 }

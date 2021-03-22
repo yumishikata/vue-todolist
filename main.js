@@ -11,9 +11,11 @@ var app = new Vue ({
     },
     methods: {
         insertTodo: function(input, lista) {
-            this.lista.push(this.input);
-            this.input ="";
-            this.temp = this.lista[this.lista.length-1];
+            if(input!=''){
+                this.lista.push(this.input);
+                this.input ="";
+                this.temp = this.lista[this.lista.length-1];
+            }
         },
         deleteTodo: function(index,lista) {
             this.temp = this.lista[index];
