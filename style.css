@@ -33,12 +33,20 @@ nav {
     border-bottom: 1px solid grey;
     position: relative;   
     list-style: none;
-
+    cursor: pointer;
 }
+
 .lista > ul li > i {
     position: absolute;
-    right: 0%;
+    right: 5%;
     top: 50%;
     transform: translateY(-50%);
 }
 
+.lista > ul > li:hover {
+    background-color: white;
+}
+
+.lista > ul > li > i:hover {
+    color: red;
+}

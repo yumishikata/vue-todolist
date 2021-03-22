@@ -19,7 +19,7 @@
             <input type="submit" id="invia" @click="insertTodo(input,lista)" value="Aggiungi">
             <input type="submit" value="Undo" @click="unDo(lista)">
         </nav>
-        <div class="lista" >
+        <div class="lista">
             <ul v-if="lista.length >0">
                 <li v-for= "(element, index) in lista">
                     {{element}}
